@@ -1,0 +1,15 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/sadeghmacbook/Desktop/Faz 3'
+mkdir -p build
+g++ -std=c++11 -Wall -pedantic -c examples/my_server.cpp -o build/my_server.o
+g++ -std=c++11 -Wall -pedantic -c examples/main.cpp -o build/main.o
+g++ -std=c++11 -Wall -pedantic -c examples/handlers.cpp -o build/handlers.o
+g++ -std=c++11 -Wall -pedantic -c utils/response.cpp -o build/response.o
+g++ -std=c++11 -Wall -pedantic -c utils/request.cpp -o build/request.o
+g++ -std=c++11 -Wall -pedantic -c utils/utilities.cpp -o build/utilities.o
+g++ -std=c++11 -Wall -pedantic -c server/server.cpp -o build/server.o
+g++ -std=c++11 -Wall -pedantic -c server/route.cpp -o build/route.o
+g++ -std=c++11 -Wall -pedantic -c utils/template_parser.cpp -o build/template_parser.o
+g++ -std=c++11 -Wall -pedantic build/my_server.o build/main.o build/handlers.o build/response.o build/request.o build/utilities.o build/server.o build/route.o build/template_parser.o  -o myserver.out
+make: Leaving directory `/Users/sadeghmacbook/Desktop/Faz 3'
+ 

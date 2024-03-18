@@ -1,0 +1,514 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Fri Jun 17 02:07:46 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/sadeghmacbook/Desktop/Faz 3
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/y9/mz9743ln48q61gm72nmfvf280000gn/T/vscode-ipc-192c1055-e1c4-4e58-ac61-425184144c0c.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+# makefile (from `makefile', line 3)
+CF = $(STD)
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.D5oZEbZIcW/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/sadeghmacbook/Desktop/Faz 3
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/sadeghmacbook
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/sadeghmacbook/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = sadeghmacbook
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `makefile', line 1)
+CC = g++
+# makefile (from `makefile', line 4)
+BUILD_DIR = build
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = sadeghmacbook
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# makefile (from `makefile', line 2)
+STD = -std=c++11 -Wall -pedantic
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/y9/mz9743ln48q61gm72nmfvf280000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/sadeghmacbook/Library/Application Support/Code/1.67.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.18103904.18103910
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `makefile', line 5)
+TEMPLATE_DIR = .template
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 1393
+# variable set hash-table stats:
+ 
+# Load=71/1024=7%, Rehash=0, Collisions=2/128=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777232, inode 20437776): 13 files, no impossibilities.
+
+# 13 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+myserver.out: build/my_server.o build/main.o build/handlers.o build/response.o build/request.o build/utilities.o build/server.o build/route.o build/template_parser.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := myserver.out
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := build/my_server.o build/main.o build/handlers.o build/response.o build/request.o build/utilities.o build/server.o build/route.o build/template_parser.o
+# automatic
+# | := 
+# automatic
+# < := build/my_server.o
+# automatic
+# ^ := build/my_server.o build/main.o build/handlers.o build/response.o build/request.o build/utilities.o build/server.o build/route.o build/template_parser.o
+# automatic
+# ? := build/my_server.o build/main.o build/handlers.o build/response.o build/request.o build/utilities.o build/server.o build/route.o build/template_parser.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/22=5%
+#  commands to execute (from `makefile', line 40):
+	$(CC) $(CF) $(BUILD_DIR)/my_server.o $(BUILD_DIR)/main.o $(BUILD_DIR)/handlers.o $(BUILD_DIR)/response.o $(BUILD_DIR)/request.o $(BUILD_DIR)/utilities.o $(BUILD_DIR)/server.o $(BUILD_DIR)/route.o $(BUILD_DIR)/template_parser.o  -o myserver.out
+	
+
+# Not a target:
+utils/request.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-26 05:06:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/main.o: examples/main.cpp server/server.hpp utils/utilities.hpp utils/response.hpp utils/request.hpp utils/include.hpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-16 19:04:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 37):
+	$(CC) $(CF) -c examples/main.cpp -o $(BUILD_DIR)/main.o
+	
+
+build/request.o: utils/request.cpp utils/request.hpp utils/include.hpp utils/utilities.hpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-16 19:04:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 19):
+	$(CC) $(CF) -c utils/request.cpp -o $(BUILD_DIR)/request.o
+	
+
+all: build myserver.out
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+
+# Not a target:
+server/route.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-26 05:06:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+examples/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-16 18:54:25
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/include.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-26 05:06:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/request.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-26 05:06:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-16 16:23:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build:
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-16 19:04:33
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 10):
+	mkdir -p $(BUILD_DIR)
+	
+
+# Not a target:
+utils/utilities.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-26 05:06:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/utilities.o: utils/utilities.cpp utils/utilities.hpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-16 19:04:32
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 22):
+	$(CC) $(CF) -c utils/utilities.cpp -o $(BUILD_DIR)/utilities.o
+	
+
+# Not a target:
+server/server.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-26 05:06:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/response.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-26 05:06:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/response.o: utils/response.cpp utils/response.hpp utils/include.hpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-16 19:04:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 16):
+	$(CC) $(CF) -c utils/response.cpp -o $(BUILD_DIR)/response.o
+	
+
+build/route.o: server/route.cpp server/route.hpp utils/utilities.hpp utils/response.hpp utils/request.hpp utils/include.hpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-16 19:04:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 28):
+	$(CC) $(CF) -c server/route.cpp -o $(BUILD_DIR)/route.o
+	
+
+# Not a target:
+utils/utilities.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-26 05:06:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+server/server.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-26 05:06:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/response.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-26 05:06:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	rm -rf $(BUILD_DIR) $(TEMPLATE_DIR) *.o *.out &> /dev/null
+	
+
+build/handlers.o: examples/handlers.cpp server/server.hpp utils/utilities.hpp utils/response.hpp utils/request.hpp utils/include.hpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-16 19:04:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 31):
+ 
+	$(CC) $(CF) -c examples/handlers.cpp -o $(BUILD_DIR)/handlers.o
+	
+
+# Not a target:
+utils/template_parser.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-26 05:06:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/template_parser.o: utils/template_parser.cpp utils/template_parser.hpp utils/request.cpp utils/request.hpp utils/utilities.hpp utils/utilities.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-16 19:04:33
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 13):
+	$(CC) $(CF) -c utils/template_parser.cpp -o $(BUILD_DIR)/template_parser.o
+	
+
+# Not a target:
+examples/handlers.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-16 19:03:03
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/my_server.o: examples/my_server.cpp server/server.hpp utils/utilities.hpp utils/response.hpp utils/request.hpp utils/include.hpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-16 19:04:29
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 34):
+	$(CC) $(CF) -c examples/my_server.cpp -o $(BUILD_DIR)/my_server.o
+	
+
+# Not a target:
+examples/my_server.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-14 17:56:06
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+utils/template_parser.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-26 05:06:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/server.o: server/server.cpp server/server.hpp server/route.hpp utils/utilities.hpp utils/response.hpp utils/request.hpp utils/include.hpp utils/template_parser.hpp utils/template_parser.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-16 19:04:32
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 25):
+	$(CC) $(CF) -c server/server.cpp -o $(BUILD_DIR)/server.o
+	
+
+# Not a target:
+server/route.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-26 05:06:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=33/1024=3%, Rehash=0, Collisions=1/107=1%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Fri Jun 17 02:07:46 2022
+
+ 
